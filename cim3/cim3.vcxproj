@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="histeq.cpp" />
+    <ClInclude Include="CImg.h" />
+    <ClInclude Include="hist_eq.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CImg.h" />
-    <ClInclude Include="rgb2gray.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
